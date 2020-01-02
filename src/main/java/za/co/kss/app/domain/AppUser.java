@@ -3,6 +3,7 @@ package za.co.kss.app.domain;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
+import java.util.Set;
 
 import javax.persistence.*;
 
@@ -51,6 +52,9 @@ public class AppUser implements UserDetails {
 
 	@OneToOne(fetch = FetchType.LAZY,cascade = CascadeType.ALL,mappedBy = "appUser")
 	private Address address;
+
+	@OneToMany(mappedBy="appUser")
+	private Set<UserRole> userRole;
 
 	@JsonIgnore
 	@Override

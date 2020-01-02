@@ -12,7 +12,7 @@ public class UserRole {
     @Column(name = "memberRoleID")
     private long memberRoleID;
 
-    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @ManyToOne(fetch = FetchType.LAZY,cascade = CascadeType.ALL)
     @JoinColumn(name = "userID", nullable = false)
     private AppUser appUser;
 
