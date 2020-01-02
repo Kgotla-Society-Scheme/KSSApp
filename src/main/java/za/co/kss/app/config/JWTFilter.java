@@ -24,8 +24,7 @@ import io.jsonwebtoken.SignatureException;
 
 /**
  * A generic filter for security. I will check token present in the header.
- * 
- * @author Sarath Muraleedharan
+ *
  *
  */
 public class JWTFilter extends GenericFilterBean {

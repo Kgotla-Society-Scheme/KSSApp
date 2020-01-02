@@ -19,8 +19,7 @@ import za.co.kss.app.repository.AppUserRepository;
 /**
  * Rest controller for authentication and user details. All the web services of
  * this rest controller will be only accessible for ADMIN users only
- * 
- * @author Sarath Muraleedharan
+ *
  *
  */
 @RestController

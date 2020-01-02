@@ -28,8 +28,7 @@ import io.jsonwebtoken.SignatureAlgorithm;
 
 /**
  * All web services in this controller will be available for all the users
- * 
- * @author Sarath Muraleedharan
+ *
  *
  */
 @RestController

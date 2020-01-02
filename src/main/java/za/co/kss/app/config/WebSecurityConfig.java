@@ -10,8 +10,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 /**
  * Spring Web security configuration class
- * 
- * @author Sarath Muraleedharan
+ *
  *
  */
 @Configurable
